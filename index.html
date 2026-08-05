@@ -6,9 +6,9 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header"><a class="brand" href="#" onclick="showView('home')"><img src="logo-facultat.png" alt="Facultat de Biociències, UAB"><span>Comissions</span></a><nav><button onclick="showView('home')">Inici</button><button onclick="showView('commissions')">Comissions</button><button onclick="showView('sessions')">Sessions</button><button id="admin-nav" hidden onclick="showView('admin')">Gestió</button></nav><button class="login" onclick="showLogin()">Accés amb NIU</button></header>
+  <header class="site-header"><a class="brand" href="#" onclick="showView('home')"><img src="logo-facultat.png" alt="Facultat de Biociències, UAB"><span>Comissions</span></a><nav><button onclick="showView('home')">Inici</button><button onclick="showView('commissions')">Comissions</button><button onclick="showView('sessions')">Sessions</button><button id="admin-nav" hidden onclick="showView('admin')">Gestió</button></nav><button id="auth-action" class="login" onclick="showLogin()">Accés amb NIU</button></header>
   <main id="app"></main>
-  <footer>Facultat de Biociències · Universitat Autònoma de Barcelona · <a href="mailto:dg.biociencies@uab.cat">dg.biociencies@uab.cat</a></footer>
+  <footer><div class="footer-mark">FACULTAT DE BIOCIÈNCIES · UAB</div><div>Plataforma de gestió de comissions</div><a href="mailto:dg.biociencies@uab.cat">dg.biociencies@uab.cat</a></footer>
   <dialog id="modal"></dialog><div id="toast" role="status"></div>
   <script src="app.js"></script>
 </body>
