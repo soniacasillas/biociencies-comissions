@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 92" role="img" aria-labelledby="title">
+  <title id="title">Facultat de Biociències UAB</title>
+  <g fill="#009639"><path d="M8 20h25L22 48H0zM0 58h23l14 26H0zM44 10h23l10 17-11 20-18-11zM75 20h28l16 20-17 19H73L60 39zM39 60h29L53 82H29z"/><path d="M133 9h18v64h-18zM160 19c21-17 55-16 78 3l-19 10c-16-8-31-7-45 2zM159 55c16-12 40-13 60-2l18 10c-25 19-57 19-79 1z"/></g>
+  <text x="250" y="41" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#009639">Bio</text><text x="250" y="72" font-family="Arial,sans-serif" font-size="30" font-weight="700" fill="#009639">UAB</text>
+</svg>
